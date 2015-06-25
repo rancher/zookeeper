@@ -1,0 +1,9 @@
+[template]
+prefix = "/services/zookeeper"
+src = "myid.tmpl"
+dest = "/var/lib/zookeeper/myid"
+owner = "root"
+mode = "0644"
+keys = [
+  "/myid",
+]

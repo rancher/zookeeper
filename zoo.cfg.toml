@@ -1,0 +1,10 @@
+[template]
+prefix = "/services/zookeeper"
+src = "zoo.cfg.tmpl"
+dest = "/opt/zookeeper/conf/zoo.cfg"
+owner = "root"
+mode = "0644"
+keys = [
+  "/myid",
+  "/host/",
+]
