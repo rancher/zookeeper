@@ -19,3 +19,9 @@ The container will setup ports on 2181,2888,3888 on the host.
 Each node in the zookeeper cluster will need an entry, and the ID/IP pairs must be the same for all hosts.
 
 The `network = host` so that ZK can bind to the instances IP.
+
+## Contact
+For bugs, questions, comments, corrections, suggestions, etc., open an issue in
+ [rancher/rancher](//github.com/rancher/rancher/issues) with a title starting with `[go-machine-service] `.
+
+Or just [click here](//github.com/rancher/rancher/issues/new?title=%5Bgo-machine-service%5D%20) to create a new issue.
